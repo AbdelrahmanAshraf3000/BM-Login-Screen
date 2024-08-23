@@ -12,4 +12,6 @@
     <string name="forgot_username_password">نسيت اسم المستخدم/كلمة المرور؟</string>
     <string name="Username">اسم المستخدم</string>
     <string name="Password">كلمة المرور</string>
+    <string name="do_not_show_password">لا تظهر كلمة المرور</string>
+    <string name="bank_misr">بنك مصر</string>
 </resources>

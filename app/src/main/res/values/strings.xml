@@ -11,4 +11,6 @@
     <string name="forgot_username_password">Forgot username/password?</string>
     <string name="Username">Username</string>
     <string name="Password">Password</string>
+    <string name="do_not_show_password">Do not show Password</string>
+    <string name="bank_misr">Bank Misr</string>
 </resources>

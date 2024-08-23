@@ -20,6 +20,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.paddingFromBaseline
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.ButtonDefaults
@@ -27,6 +29,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardColors
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -42,6 +45,8 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
@@ -96,7 +101,7 @@ fun startScreen(modifier: Modifier = Modifier) {
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.bm_icon),
-                    contentDescription = "Bank Misr"
+                    contentDescription = stringResource(R.string.bank_misr)
 
                 )
                 Text(
@@ -120,9 +125,17 @@ fun startScreen(modifier: Modifier = Modifier) {
                 value = password,
                 onValueChange = { password = it },
                 label = { Text(text = stringResource(R.string.Password)) },
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                visualTransformation = PasswordVisualTransformation(),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 28.dp)
+                    .padding(top = 28.dp),
+                trailingIcon = {
+                    Icon(
+                        painter = painterResource(id = R.drawable.baseline_visibility_off_24),
+                        contentDescription = stringResource(R.string.do_not_show_password)
+                    )
+                }
             )
 
             Text(
