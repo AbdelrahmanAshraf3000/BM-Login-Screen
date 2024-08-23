@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BM Application</string>
+    <string name="language">العربية</string>
+    <string name="nearest_branch_or_atm">Nearest branch or ATM</string>
+    <string name="security_tips">Security Tips</string>
+    <string name="exchange_rat">Exchange Rat</string>
+    <string name="our_products">Our Products</string>
+    <string name="login">Login</string>
+    <string name="need_help">Need help?</string>
+    <string name="contact_us">Contact us</string>
+    <string name="forgot_username_password">Forgot username/password?</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+</resources>

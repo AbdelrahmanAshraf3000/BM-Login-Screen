@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BM Application</string>
+    <string name="language">EN</string>
+    <string name="nearest_branch_or_atm">أقرب فرع أو ماكينة صرافة </string>
+    <string name="security_tips">نصائح أمنية</string>
+    <string name="exchange_rat">سعر الصرف</string>
+    <string name="our_products">منتجاتنا</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="need_help">مزيد من المساعدة؟</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="forgot_username_password">نسيت اسم المستخدم/كلمة المرور؟</string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="Password">كلمة المرور</string>
+</resources>
