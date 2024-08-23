@@ -135,7 +135,7 @@ fun startScreen(modifier: Modifier = Modifier) {
             )
 
             Button(
-                onClick = { /*TODO*/ },
+                onClick = {  },
                 shape = RoundedCornerShape(8.dp),
                 colors = ButtonDefaults.buttonColors(DarkRed),
                 modifier = modifier
